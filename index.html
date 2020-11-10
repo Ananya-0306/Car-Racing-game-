@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Car Racing</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/all.min.css">
+</head>
+
+<body style="background-color:lightgreen;">
+    <div class="container mb-4 mt-4">
+        <center>
+            <!-- Title -->
+            <h1 style="font-size: 3.5rem;">
+                <font class="text-primary">C</font>ar <font class="text-primary">R</font>acing <small
+                    class="text-muted"> (
+                    Game )</small>
+            </h1>
+              </center>
+        <div class="card shadow-sm mx-auto mb-3">
+            <div class="card-body row pb-1 pt-1">
+                <div class="col-md-4 text-center">
+                    <h3 id="score_ID" class="text-primary mb-0">0</h3>
+                    <h3>Score</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 id="maxScore_ID" class="text-primary mb-0">0</h3>
+                    <h3>Best Score</h3>
+                </div>
+                <div class="col-md-4 text-center">
+                    <h3 id="speed_ID" class="text-primary mb-0">0 m/s</h3>
+                    <h3>Speed</h3>
+                </div>
+            </div>
+        </div>
+        <center>
+            <h4 class="text-muted">Press Up key and Down key to change speed. To start this game press Up Key.</h4>
+            <!-- Canvas with map image  -->
+            <canvas class="shadow mt-3 mb-0" height="700" width="900" id="myCanvas"
+                style="background: url('assets/images/back.png');"></canvas>
+        </center>
+        <div class="mt-2 card shadow-sm">
+            <div class="card-body">
+               
+            </div>
+        </div>
+    </div>
+    <!-- Include script.js file -->
+    <script type="text/javascript" src="./assets/js/script.js"></script>
+</body>
+
+</html>
